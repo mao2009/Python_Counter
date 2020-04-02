@@ -52,8 +52,3 @@ def __num_count(start, end=None, step=None):
             yield count
             count += step
 
-
-if __name__ == "__main__":
-    items = ["foo", "bar", "hoge"]
-    for i in count(1,10,2):
-        print(i)
