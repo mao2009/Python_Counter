@@ -1,25 +1,27 @@
-# Counter
+# itrcnt
 
-Counter is altanative for range and enumrator.
+itrcnt is altanative for range and enumrator.
 
-## Install
+## How to Install
 
-`pip install itrcnt`
-
-## How to
-
-```python
-count(start, end=None, step=None)
+```
+pip install itrcnt
 ```
 
-## Import
-```python
+
+## How tow Import
+``` python
 from itrcnt import count
 ```
 
+## How to Use
+
+``` python
+count(start, end=None, step=None)
+```
 ### e.g.
 
-```python
+``` python
 for i in count(1,10):
     print(i)
 ```
@@ -37,7 +39,7 @@ for i in count(1,10):
 10
 ```
 
-```python
+``` python
 for i in count(1,10,2):
     print(i)
 ```
@@ -50,7 +52,7 @@ for i in count(1,10,2):
 9
 ```
 
-```python
+``` python
 items = ['foo', 'bar']
 for i, item in (1,items):
     print(i,item)
@@ -60,7 +62,8 @@ for i, item in (1,items):
 1 foo
 2 bar
 ```
-```python
+
+``` python
 items = ['foo', 'bar']
 for i, item in (0,items,2):
     print(i,item)
