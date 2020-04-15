@@ -4,7 +4,7 @@ Counter is altanative for range and enumrator.
 
 ## Install
 
-`pip install counter`
+`pip install itrcnt`
 
 ## How to
 
@@ -14,7 +14,7 @@ count(start, end=None, step=None)
 
 ## Import
 ```python
-from counter import count
+from itrcnt import count
 ```
 
 ### e.g.

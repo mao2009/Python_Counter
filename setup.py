@@ -5,7 +5,7 @@ with open('README.md') as f:
     long_description = f.read()
 
 setup(
-    name='counter', 
+    name='itrcnt', 
     module='itrcnt.py',
     version='0.1.0',
     license='BSD',
