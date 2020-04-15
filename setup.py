@@ -7,7 +7,7 @@ with open('README.md') as f:
 setup(
     name='itrcnt', 
     module='itrcnt.py',
-    version='0.1.1',
+    version='0.1.2',
     license='BSD',
 
     author='mao2009',
